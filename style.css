@@ -1,0 +1,591 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+
+.navbar { 
+        background-color: #1E88E5 !important;
+} 
+.nav-link {
+    color: #ffff !important;
+    font-weight: bold;
+}
+
+.fa-shopping-cart,.fa-user-circle{
+    font-size: 32px !important;
+    /* color: #1E88E5; */
+ }
+.fa-truck,.fa-thumbs-up{
+    font-size: 32px !important;
+     /* color: #1E88E5;  */
+}
+h1{
+    text-align: center;
+    color: #1E88E5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+h2{
+    text-align: center;
+    color: #1E88E5;
+     margin-top: 10px; 
+}
+.card1,.card2,.card3{
+    display: flex;
+    
+    box-shadow: 7px 9px 13px grey;
+    background-color: #ffffff;
+    border-radius: 20px ;
+    text-align: center;
+    align-items: center;
+    
+    margin: 10px; 
+    width: 300px;
+    height: 100px;
+}
+.card1,.card2,.card3 h3{
+    align-items: center !important;
+    text-align: right !important;
+}
+
+.services-card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 10px;
+    
+}
+
+
+.jeans-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 10px;
+}
+.main-card{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+     flex-wrap: wrap; 
+    justify-content: space-around;
+}
+
+.user{
+    height: 32px;
+    width: 32px;
+    font-size: 32px;
+    color:#1E88E5 ;
+}
+.service-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.jacket-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.btn-primary:hover{
+    background-color: #0000FF	;
+    color: white !important;
+}
+.footer{
+     text-align: center;
+    background-color:#1E88E5; 
+    color: white;
+    /* border-radius: 20px; */
+    /* border: 2px solid black; */
+    height: 50px;
+    margin: 16px 15px;
+    padding: 9px 20px;
+}
+.contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+    border-radius: 15px;
+    font-size: 1.1rem;
+}
+.contact-box form{
+    width: 40%;
+
+}
+.contact-box input,textarea{
+    color: #ffffff;
+    background-color: #1E88E5;
+    
+  
+}
+.contact-box ::placeholder{
+    color: white;
+}
+
+#name,#messages{
+    border: 2px solid #1E88E5;
+    border-radius: 10px ;
+    
+
+}
+.contact-box label{
+    font-size: 1.3rem;
+    font-family: serif;
+    color: #1E88E5;
+    
+}
+.contact-box input,
+.contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
+.card{
+    margin-top: 80px;
+}
+
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+    .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .navbar-nav mr-auto{
+      color: black;
+  }
+  .nav-item active{
+      color: black;
+  } 
+
+.carousel-item img{
+    height: 600px;
+}
+
+
+.nav-link:hover{
+    background-color: white;
+    color: #1E88E5 !important;
+    border-radius: 20px;
+}
+/* about us page */
+.card-title{
+    color: grey !important;
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card btn:hover{
+    background-color: white !important;
+}
+.btn btn-dark:hover{
+    background-color: white !important;
+    color: black !important;
+}
+
+
+.button{
+    border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  height: 40%;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;  
+}
+.button:hover {
+    background-color:white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  .main-one{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+.left{
+    
+    width: 45%;
+    border: 2px solid grey;
+    margin: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .left img{
+      width: 100%;
+      height: 550px;
+    
+  }
+  .right{
+      width: 45%;
+      border: 2px solid grey;
+      height: 40%;
+      padding: 10px 20px;
+      margin: 10px 20px;
+      background-color:#F8F8FF;
+      border-radius: 10px;
+  }
+
+@media screen and (max-width: 600px) {
+
+.left{
+    margin: auto;
+    width: 100%;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px; 
+     }
+.right{
+    margin: auto;
+    width: 100%;
+    border-radius: 5px;
+    border: 3px solid black;
+    padding: 10px; 
+    }
+ 
+}
+
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .main-one btn{
+    background-color: #1E88E5;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .main-one btn:hover {
+    background-color: white !important;
+    color: #1E88E5 !important;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+
+
+  .project{
+      border: 2px solid black;
+      border-radius: 10px;
+      padding: 10px 12px;
+      margin: 5px 7px;
+  }
+
+  .success-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+  }
+
+
+
+    .main-login{
+      border: 1px solid #f2f2f2;
+      margin-top: 30px;
+      margin-left:30px;
+      margin-right: 30px;
+ 
+      height: 100%;
+    
+    }
+    .section-login{
+      /* border: 2px solid black; */
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      background-color: #f2f2f2;
+
+    }
+    .login-row{
+      display: flex;
+      flex-direction: column;
+      /* justify-content: space-between; */
+      flex-wrap: wrap;
+    }
+    .login-1,.login-2,.login-3{
+      width: 45%;
+      /* border: 2px solid black; */
+      width: 200px;
+      margin-top: 30px;
+      border-radius: 5px;
+    }
+     .login-cols{
+      width: 45%;
+      /* border: 2px solid black; */
+      margin-left: 30px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    .fb{
+      background-color: #3B5998;
+      color: white;
+      width: 300px;
+    } 
+    .twitter{
+      background-color: #55ACEE;
+      color: white;
+      width: 300px;
+    }
+    .google{
+      color: white;
+      background-color: #dd4b39;
+      width: 300px;
+    }
+    .signup{
+      margin-top: 10px;
+      color: white;
+    
+    }
+
+    * {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+    .login-cols{
+      border: none;
+    }
+    
+    
+    .btn-login-end{
+      /* border: 2px solid #ccc; */
+      border: none;
+      width: 400px;
+      align-items: center;
+      margin-left: 50px;
+      height: 40px;
+      margin-bottom: 30px;
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    .pw{
+      padding: 12px;
+    }
+    .heading-1{
+      background-color: #f2f2f2;
+    }
+    .forget-login{
+      display: flex;
+      flex-direction: row;
+      /* justify-content: space-around;
+      flex-wrap: wrap; */
+      width: 100%;
+      height: 50px;
+    }
+    .forget{
+      width: 100%;
+      /* border: 2px solid black; */
+      
+      text-align: center;
+      background-color: brown;
+      color: white;
+ 
+    }
+    .sign-up{
+      width: 45%;
+      /* border: 2px solid black; */
+      text-align: center;
+      background-color: brown;
+      color: white;
+    }
+    .sign-up>a{
+      color: white;
+
+    }
+    .forget>a{
+      color: white;
+    }
+    .btn-success{
+      width: 400px;
+      margin-left: 66px;
+    }
+
+  
+    @media screen and (max-width: 650px) {
+      .login-cols,.login-cols>input,.login-cols-1{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* color: black;
+        background-color: black; */
+        float: left;
+        margin-left: -67px;
+        width:100%;
+      }
+      .btn-success{
+        width: 300px;
+        margin: 30px;
+        margin-left: 93px;
+        align-items: center;
+      }
+      .login-row{
+        width: 400px;
+        margin-left: 44px;
+      }
+    }
